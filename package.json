@@ -2,7 +2,7 @@
   "name": "joandev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joanescolanuria.github.io/blog-website",
+  "homepage": "https://joanescolanuria.github.io/blog01/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
