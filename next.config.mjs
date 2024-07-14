@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/blog01/' : '',
+    assetPrefix: '/blog01/',
+    basePath: '/blog01',
     trailingSlash: true,
     images: {
       unoptimized: true,
