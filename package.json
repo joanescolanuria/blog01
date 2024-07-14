@@ -2,13 +2,13 @@
   "name": "joandev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joanescolanuria.github.io/blog01/",
+  "homepage": "https://joanescolanuria.github.io/blog-website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
@@ -21,6 +21,7 @@
     "eslint-config-next": "14.2.4",
     "gh-pages": "^6.1.1",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10"
   }
 }
